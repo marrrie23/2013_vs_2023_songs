@@ -17,7 +17,6 @@ Lyrics were collected from licensed online music databases and lyric repositorie
 
 ## Cleaning and Preprocessing
 The lyrics underwent several preprocessing steps:
-- Stripping of headers, footers, and any non-lyrical content.
 - Encoding normalization to UTF-8 for consistency.
 - Tokenization and lemmatization using spaCy to standardize word forms.
 
@@ -32,10 +31,18 @@ The corpus files are formatted as follows:
 - `.csv`: Song metadata, which includes:
   - `Filename`: Identifier corresponding to the song's text file.
   - `Song`: The title of the song.
-  - `Artist(s)`: The performing artist(s).
+  - `Artist_s`: The performing artist(s).
   - `Year`: The year the song was a top hit.
   - `Genre`: The genre classification from Billboard.
-
+  - `Text`: Unedited lyrics collected from the website.
+  - `Doc`: Texts processed using spaCy.
+  - `Tokens`:Tokenized song lyrics.
+  - `Lemmas`: Lemmatized song lyrics.
+  - `POS`:The types of proper nouns.
+  - `Proper_Nouns`: The words identified as proper nouns.
+  - `Named_Entities`: The types of the entities.
+  - `NE_Words`: The words assigned to the entity types.
+    
 ## Additional Notes
 - The corpus is limited to songs with English lyrics.
 - Thematic analysis is based on keyword frequency and does not account for semantic depth or context.
