@@ -34,7 +34,6 @@ The corpus files are formatted as follows:
   - `Artist_s`: The performing artist(s).
   - `Year`: The year the song was a top hit.
   - `Genre`: The genre classification from Billboard.
-  - `Text`: Unedited lyrics collected from the website.
   - `Doc`: Texts processed using spaCy.
   - `Tokens`:Tokenized song lyrics.
   - `Lemmas`: Lemmatized song lyrics.
