@@ -1,4 +1,4 @@
-#Song themes over time: comparing the lyrics of the top 10 songs of 2013 and 2013
+# Song themes over time: comparing the lyrics of the top 10 songs of 2013 and 2013
 
 # Corpus Description
 This corpus contains the lyrics of 20 songs - the top 10 Billboard songs from 2013 and 2023. It was created to explore thematic changes in popular music over the past decade, with a focus on love, relationships, and the theme of party and celebration.
